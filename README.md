@@ -27,6 +27,16 @@ export default [
     },
   },
 
+  // ===== PROJECT LOCAL RULES =================================================
+  // Add any extra rule not tied to a specific "files" pattern here, e.g.:
+  // {
+  //   name: 'local/rules',
+  //
+  //   rules: {
+  //     'camelcase': 'off',
+  //   },
+  // },
+
   // ===== IGNORED FILES =======================================================
   // REMEMBER! Ignores *must* be in its own configuration, they can not coexist
   // with "rules", "languageOptions", "files", ... or anything else, otherwise
