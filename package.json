@@ -1,0 +1,47 @@
+{
+  "name": "@plugjs/eslint-plugin-vue",
+  "version": "0.1.0",
+  "description": "Shared ESLint configurations and extras for Vue",
+  "main": "./index.mjs",
+  "type": "module",
+  "author": "Team Juit <developers@juit.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "eslint-check-deprecated-rules && eslint"
+  },
+  "dependencies": {
+    "@plugjs/eslint-plugin": "^0.5.0",
+    "eslint-plugin-vue": "^10.4.0",
+    "espree": "^10.4.0",
+    "vue-eslint-parser": "^10.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.35.0",
+    "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "eslint": "^9.35.0"
+  },
+  "files": [
+    "*.md",
+    "index.mjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/plugjs/eslint-plugin-vue.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "javascript",
+    "typescript",
+    "vue",
+    "vue3",
+    "vuejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/plugjs/eslint-plugin-vue/issues"
+  },
+  "homepage": "https://github.com/plugjs/eslint-plugin-vue#readme"
+}
