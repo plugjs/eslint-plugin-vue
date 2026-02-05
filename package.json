@@ -1,6 +1,6 @@
 {
   "name": "@plugjs/eslint-plugin-vue",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "description": "Shared ESLint configurations and extras for Vue",
   "main": "./index.mjs",
   "type": "module",
@@ -10,7 +10,7 @@
     "build": "eslint-check-deprecated-rules && eslint"
   },
   "dependencies": {
-    "@plugjs/eslint-plugin": "^0.5.20",
+    "@plugjs/eslint-plugin": "^0.5.21",
     "eslint-plugin-vue": "^10.7.0",
     "espree": "^11.1.0",
     "vue-eslint-parser": "^10.2.0"
