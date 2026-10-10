@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/plugjs/eslint-plugin-vue.git"
+    "url": "git+https://github.com/plugjs/eslint-plugin-vue.git"
   },
   "keywords": [
     "eslint",
